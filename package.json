@@ -1,0 +1,40 @@
+{
+  "name": "cocacode-dock",
+  "version": "1.0.0",
+  "description": "CocaCode Dock - Windows 分类启动栏（基于 GameDock 改造）",
+  "author": "CocaCode",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.0.0"
+  },
+  "build": {
+    "appId": "com.cocacode.dock",
+    "productName": "CocaCode Dock",
+    "artifactName": "CocaCodeDock-Portable",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "icon": "assets/icon.ico",
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "files": [
+      "**/*",
+      "!node_modules/.cache",
+      "!*.md",
+      "!docs/**"
+    ]
+  }
+}
