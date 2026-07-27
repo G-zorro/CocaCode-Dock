@@ -7,7 +7,7 @@
 [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey?style=for-the-badge)](https://www.microsoft.com/windows)
 [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.3.2-blue?style=for-the-badge)](CHANGELOG.md)
-
+![图片说明文字](ScreenShot_2026-07-28_002911_470.png)
 需要时唤出，不需要时安静待在系统托盘里——不占屏幕，不碍事。
 
 </div>
